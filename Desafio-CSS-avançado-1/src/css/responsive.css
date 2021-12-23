@@ -1,0 +1,51 @@
+
+
+@media (max-width: 768px) {
+
+
+    h1{
+        width: 160px;
+        height: 47px;
+        font-weight: 800;
+        font-size: 40px;
+    
+    }
+    .cabecalho {
+        margin: 0 auto;
+        min-width: 375px;
+        display: flex;
+        position: relative;
+        width: 375px;
+        height: 800px;
+    }
+    .cabecalho nav {
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 154px;
+        height: 423px;
+        left: 112px;        
+        top: 191px; 
+        font-size: 48px;
+        line-height: 47px; 
+    }
+    .cabecalho li{
+        padding: 18px;
+    }
+    .cabecalho .sobre{
+        align-items: center;
+        justify-content: center;
+        width: 233px;
+        left: 81px;
+        top: 269px;
+        right: 71px;
+    }
+    button{
+        Width: 127px;
+        Height: 39px;
+        Top: 677px;
+        Left: 124px;
+    }
+ 
+}
