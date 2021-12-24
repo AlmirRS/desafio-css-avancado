@@ -1,61 +1,54 @@
 html{
-    font-size: 62.5%;
+    font-size: 62.5rem;
 }
 
 body {
     max-width: 1440px;
-    height: 426px;
     margin: 0 auto;
-    display: flex;
 }
 
 .cabecalho {
     display: flex;
     position: relative;
     width: 1440px;
-    height: 426px;
-    background-color: #FFFFFF;
 }
 
 .cabecalho .logo {
     background: url(../images/logo.png) center center no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
     width: 48px;
     height: 41px;
     top: 38px;
     left: 55px;
     display: flex;
 } 
-
 h1 {
     position: absolute;
     width: 80px;
     height: 24px;
-    top: 48px;
-    left: 106px;
+    top: 8px;
+    left: 55px;
     font-weight: 800;
     font-size: 20px;
     line-height: 23px;
 }
-
 .cabecalho nav {
     display: flex;
     align-items: center;
     position: absolute;
     width: 327px;
     height: 18px;
-    right: 236px;
+    right: 195px;
     top: 55px; 
     font-size: 15px;
     line-height: 18px;  
 }
-
 .cabecalho ul li {
     display: inline-flex;
     margin-left: 10px;
 }
-.cabecalho .sobre{
+.cabecalho .ativo{
     align-items: center;
     justify-content: center;
     width: 60px;
@@ -64,7 +57,7 @@ h1 {
     right: 445px;
     background: #5bc241;
 }
-.cabecalho .sobre a{
+.cabecalho .ativo a{
     color: #ffffff;
 }
 button{
@@ -79,7 +72,6 @@ button{
     color: #ffffff;
     background: #5bc241;
     border-radius: 10px;
-
 } 
 .cabecalho ul li a:hover {
     font-weight: bold;

@@ -1,14 +1,10 @@
 
 
 @media (max-width: 768px) {
-
-
     h1{
         width: 160px;
         height: 47px;
-        font-weight: 800;
-        font-size: 40px;
-    
+        font-size: 40px;    
     }
     .cabecalho {
         margin: 0 auto;
@@ -16,11 +12,9 @@
         display: flex;
         position: relative;
         width: 375px;
-        height: 800px;
     }
     .cabecalho nav {
         display: flex;
-        position: absolute;
         text-align: center;
         justify-content: center;
         width: 154px;
@@ -33,7 +27,7 @@
     .cabecalho li{
         padding: 18px;
     }
-    .cabecalho .sobre{
+    .cabecalho .ativo{
         align-items: center;
         justify-content: center;
         width: 233px;
@@ -42,10 +36,9 @@
         right: 71px;
     }
     button{
-        Width: 127px;
-        Height: 39px;
-        Top: 677px;
-        Left: 124px;
-    }
- 
+        width: 127px;
+        height: 39px;
+        top: 677px;
+        left: 124px;
+    } 
 }
