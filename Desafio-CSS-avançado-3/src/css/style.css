@@ -19,7 +19,7 @@ body {
     max-height: 368px;
     background-color: #F7F7F7;
 }
-h1 {
+h2 {
     font-size: 14px;
 }
 p {
@@ -39,10 +39,10 @@ p {
 .inf-do-video-atual {
     margin: 10px 0 31px 21px;
 }
-.inf-do-video-atual h1 {
+.inf-do-video-atual h2 {
     margin: 5px 0 10px 0;    
 }
-.inf-do-video-atual h1, p {
+.inf-do-video-atual h2, p {
     margin: 5px 0 5px 0;    
 }
 .banner {
@@ -55,25 +55,24 @@ p {
     justify-content: center;
     align-items: center;
 }
-.sujestoes {
-    width: 101px;
-    height: 71px;
+.sugestoes {
+    width: 111px;
     background-color: #C4C4C4;
     margin-right: 4px;
 }
-.sujestoes-a {
+.sugestoes-a {
     display: flex;
     grid-area: 2 / 2 / 2 / 3;
     width: 270px;
     height: 71px;    
 }
-.sujestoes-b {
+.sugestoes-b {
     display: flex;
     grid-area: 3 / 2 / 3 / 3;
     width: 270px;
     height: 71px;
 }
-.sujestoes-c {
+.sugestoes-c {
     display: flex;
     grid-area: 4 / 2 / 4 / 3;
     width: 270px;
