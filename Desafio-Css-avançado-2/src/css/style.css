@@ -5,21 +5,18 @@
     margin: 0;
     font-family: 'Public Sans', sans-serif;
 }
-
-h1 {
+h2 {
     font-size: 30px;    
 }
-
 p {
     font-size: 17px;
     font-weight: 400;
 }
-
 .main {
     display: flex;       
     align-items: center;
     justify-content: center;    
-    height: 689px;
+    height: 100vh;
     margin: 21px; 
 }
 .image {
@@ -29,30 +26,26 @@ p {
     padding: 0 0 30.86px 26px;
     align-items: flex-end; 
     margin-right: 19px;    
-    color: #fff;
-    
+    color: #fff;    
 }
 
 .image.six {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/6.jpg) center center no-repeat;
-    background-size: cover;        
+    background-size: cover; 
+           
 }
-
 .image.three {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/3.jpg) center center no-repeat;
     background-size: cover;
 }
-
 .image.four {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/4.jpg) center center no-repeat;
     background-size: cover;   
 }
-
 .image.five {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/5.jpg) center center no-repeat; 
     background-size: cover;  
 }
-
 @media (max-width: 770px) {
     .main {
         flex-wrap: wrap;
@@ -63,9 +56,4 @@ p {
         margin-bottom: 36px;
         height: 100%;        
     }
-
-    .image.five {
-        margin-right: 19px;        
-    }   
-
 }
