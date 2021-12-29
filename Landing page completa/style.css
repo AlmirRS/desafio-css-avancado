@@ -1,0 +1,68 @@
+*{ 
+    border: none;
+    outline: none;  
+    font-family: 'Public Sans', sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 40px;
+}
+.header, .section, .logo, .menu nav ul{
+    display: flex;
+}
+.header, .section{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-width: 785px;
+    margin: 0 auto;
+}
+.logo{
+    align-items: center;
+}
+.menu nav ul{
+    align-items: center;
+}
+.menu nav ul li{
+    margin-left: 10px;
+    padding: 10px; 
+    list-style: none;
+}
+.sobre, .cadastre-se{
+    background: #5bc241;
+}
+.sobre > a{
+    color: #fff;
+}
+.cadastre-se > a{
+    color: #fff;
+}
+.cadastre-se{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 127px;
+    height: 39px;
+    font-weight: 300;
+    background: #5bc241;
+    border-radius: 10px;
+}
+/* sobre */
+.section{
+    margin-top: 200px;
+    padding: 10px;
+}
+.section img{
+    width: 335.64px;
+    height: 431.86px;
+    margin: 10px;
+}
+.section div{
+    flex: 1 1 200px;   
+}
+.section h2, p {
+
+}
