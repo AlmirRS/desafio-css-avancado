@@ -6,40 +6,31 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+h1 {
+    position: absolute;  
+    top: 8px;
+    left: 65px;
+    font-weight: 800;
+    font-size: 20px;
+}
 .cabecalho {
     display: flex;
+    align-items: center;
     position: relative;
-    width: 1440px;
+    height: 140px;
 }
-
 .cabecalho .logo {
-    background: url(../images/logo.png) center center no-repeat;
     background-size: cover;
     position: relative;
-    width: 48px;
     height: 41px;
-    top: 38px;
     left: 55px;
     display: flex;
 } 
-h1 {
-    position: absolute;
-    width: 80px;
-    height: 24px;
-    top: 8px;
-    left: 55px;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 23px;
-}
 .cabecalho nav {
     display: flex;
     align-items: center;
     position: absolute;
-    width: 327px;
-    height: 18px;
-    right: 195px;
+    right: 100px;
     top: 55px; 
     font-size: 15px;
     line-height: 18px;  
@@ -60,16 +51,16 @@ h1 {
 .cabecalho .ativo a{
     color: #ffffff;
 }
-button{
-    position: absolute;
+.button a{
+    color: #fff;
+}
+.button{
+    align-items: center;
+    justify-content: center;
     width: 127px;
     height: 39px;
-    top: 41px;
-    right: 74px;
     font-weight: 300;
     font-size: 15px;
-    line-height: 18px;
-    color: #ffffff;
     background: #5bc241;
     border-radius: 10px;
 } 
