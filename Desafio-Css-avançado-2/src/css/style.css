@@ -31,8 +31,7 @@ p {
 
 .image.six {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/6.jpg) center center no-repeat;
-    background-size: cover; 
-           
+    background-size: cover;            
 }
 .image.three {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/3.jpg) center center no-repeat;
