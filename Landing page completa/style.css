@@ -54,15 +54,19 @@ img{
 .section{
     margin-top: 200px;
     padding: 10px;
+    width: 100%;
+    background: #5bc241;
+}
+.section .image{
+    position: relative;
+    flex: 1 1 200px;   
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    background-color: aqua; 
 }
 .section img{
-    width: 335.64px;
-    height: 431.86px;
+    width: 100%px;
+    height: 100%px;
     margin: 10px;
-}
-.section div{
-    flex: 1 1 200px;   
-}
-.section h2, p {
-
 }
